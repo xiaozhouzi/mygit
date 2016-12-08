@@ -1,0 +1,243 @@
+body{
+    margin:0;
+    padding:0;
+}
+body,html{
+    height:100%;
+}
+.flash-box{
+    width:100%;
+    height:100%;
+    background: url(img/bg.png) no-repeat center center;
+    background-size:cover ;
+    overflow: hidden;
+    position: absolute;
+    z-index: 10;
+}
+.flash-box .title{
+    width: 60%;
+    margin: 10% auto 0;
+ }
+.flash-box .title img{
+    width:100%;
+}
+.flash-box .text{
+    height:50px;
+    line-height: 50px;
+    text-align: center;
+    color: #555;
+}
+.flash-box .loading{
+    width:40%;
+    height:20px;
+    background-color: #73b4dc;
+    margin:0 auto;
+    border-radius: 10px;
+    position: relative;
+}
+.flash-box .loading .y{
+    width:22px;
+    height:22px;
+    background:black;
+    border-radius: 50%;
+    border:4px solid #fff;
+    position: absolute;
+    top:-5px;
+}
+.sence-box{
+    width:100%;
+    background: url(img/bg.png) no-repeat center center;
+    background-size:cover ;
+    position: absolute;
+    z-index: 8;
+    height:100%;
+    overflow: hidden;
+}
+.sence-box .select{
+    width: 46%;
+    margin: 8% auto 0;
+}
+.sence-box .select img{
+    width:46%;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.sence-box .dressup-btn{
+    width:30%;
+    margin:0 auto;
+    text-align: center;
+    cursor: pointer;
+}
+.sence-box .dressup-btn img{
+    width:100%;
+}
+.dressup-box{
+    width:100%;
+    height:100%;
+    position: absolute;
+    z-index: 9;
+    background:url(img/bg.png) no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+    display: none;
+}
+.dressup-box .role{
+    text-align: center;
+    margin-top: 10%;
+}
+.dressup-box .role img{
+    width:15%;
+    margin:0 1%;
+    cursor: pointer;
+}
+.dressup-box .button{
+    width:100%;
+    height:100px;
+    position: absolute;
+    bottom:0;
+    background-color: #fff;
+    line-height: 60px;
+    text-align: center;
+    color: #fe5858;
+    font-size: 25px;
+}
+.dressup-box .button .back-btn{
+    width:60px;
+    height:60px;
+    margin:10px;
+    float: right;
+    cursor: pointer;
+}
+.dressup-box .button .back-btn img{
+    width:100%;
+}
+.win-box{
+    width:100%;
+    height:100%;
+    position: absolute;
+    z-index: 20;
+    display: none;
+}
+.win-box .win-bg{
+    width:100%;
+    height:100%;
+    background: #000;
+    opacity: 0.5;
+    position: absolute;
+}
+.win-box .win{
+    width:40%;
+    position: absolute;
+    margin: auto;
+    top:0%;
+    bottom:0;
+    left:0;
+    right:0;
+}
+.win-box .win .score .num{
+    font-size: 50px;
+}
+.win-box .win .score{
+    width:100%;
+    position: relative;
+    margin-top: 15%;
+    font-size: 50px;
+}
+.win-box .win .score img{
+    width:100%;
+}
+.win-box .win .score .num{
+    position: absolute;
+    margin:auto;
+    text-align: center;
+    margin-top: 35%;
+    left:0;
+    right:0;
+    top:0;
+}
+.win-box .win .btn-group{
+    height: 100px;
+}
+.win-box .win .btn-group div{
+    float:left;
+    text-align:center;
+    width: 50%;
+    height:100px;
+}
+.win-box .win .btn-group div img{
+    height:100%;
+}
+.game-box{
+    width:100%;
+    height:100%;
+    background: #fff;
+    position: absolute;
+    /*z-index:100;*/
+}
+.game-box .score-box .score-s{
+    font-size:30px;
+    color: blue;
+}
+#sence{
+    height:601px;
+    width:601px;
+    background: #888;
+    margin:30px auto;
+}
+#sence div{
+    height: 29px;
+    width:29px;
+    background: #fff;
+    float: left;
+    margin-top:1px;
+    margin-left:1px;
+}
+#sence2 {
+    height: 601px;
+    width: 601px;
+    margin: 30px auto;
+    position: absolute;
+    left:0;
+    right:0;
+    top:30px;
+    margin:0 auto;
+}
+#sence2 .block{
+    width:29px;
+    height:29px;
+    border-radius: 50%;
+    float: left;
+    margin:1px 0 0 1px;
+}
+#sence2 .s1{
+    background: black;
+    background-size: cover;
+    transform: scale(1.2,1.2);
+    box-shadow: 0 0 5px #888;
+}
+#sence2 .s2{
+    background: #5cb85c;
+    background-size: cover;
+    transform: scale(1.2,1.2);
+    box-shadow: 0 0 5px #888;
+}
+#sence2 .sh{
+    transform: scale(1.2,1.2);
+    box-shadow: 0 0 5px #444;
+    background: url(img/lvjuren.png);
+    background-size: cover;
+}
+#sence2 .f{
+    background: red;
+    transform: scale(1.2,1.2);
+    box-shadow: 0 0 5px #888;
+}
+.score-box{
+    height: 30px;
+    position: absolute;
+    top:5px;
+    left:5px;
+}
+.score-box span{
+    padding:0 5px;
+}
