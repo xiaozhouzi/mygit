@@ -5,48 +5,9 @@ body{
 body,html{
     height:100%;
 }
-.flash-box{
-    width:100%;
-    height:100%;
-    background: url(img/bg.png) no-repeat center center;
-    background-size:cover ;
-    overflow: hidden;
-    position: absolute;
-    z-index: 10;
-}
-.flash-box .title{
-    width: 60%;
-    margin: 10% auto 0;
- }
-.flash-box .title img{
-    width:100%;
-}
-.flash-box .text{
-    height:50px;
-    line-height: 50px;
-    text-align: center;
-    color: #555;
-}
-.flash-box .loading{
-    width:40%;
-    height:20px;
-    background-color: #73b4dc;
-    margin:0 auto;
-    border-radius: 10px;
-    position: relative;
-}
-.flash-box .loading .y{
-    width:22px;
-    height:22px;
-    background:black;
-    border-radius: 50%;
-    border:4px solid #fff;
-    position: absolute;
-    top:-5px;
-}
 .sence-box{
     width:100%;
-    background: url(img/bg.png) no-repeat center center;
+    background: url(../img/bg.png) no-repeat center center;
     background-size:cover ;
     position: absolute;
     z-index: 8;
@@ -59,57 +20,8 @@ body,html{
 }
 .sence-box .select img{
     width:46%;
-    margin-right: 20px;
+    margin-left:28%;
     cursor: pointer;
-}
-.sence-box .dressup-btn{
-    width:30%;
-    margin:0 auto;
-    text-align: center;
-    cursor: pointer;
-}
-.sence-box .dressup-btn img{
-    width:100%;
-}
-.dressup-box{
-    width:100%;
-    height:100%;
-    position: absolute;
-    z-index: 9;
-    background:url(img/bg.png) no-repeat center center;
-    background-size: cover;
-    overflow: hidden;
-    display: none;
-}
-.dressup-box .role{
-    text-align: center;
-    margin-top: 10%;
-}
-.dressup-box .role img{
-    width:15%;
-    margin:0 1%;
-    cursor: pointer;
-}
-.dressup-box .button{
-    width:100%;
-    height:100px;
-    position: absolute;
-    bottom:0;
-    background-color: #fff;
-    line-height: 60px;
-    text-align: center;
-    color: #fe5858;
-    font-size: 25px;
-}
-.dressup-box .button .back-btn{
-    width:60px;
-    height:60px;
-    margin:10px;
-    float: right;
-    cursor: pointer;
-}
-.dressup-box .button .back-btn img{
-    width:100%;
 }
 .win-box{
     width:100%;
@@ -224,7 +136,7 @@ body,html{
 #sence2 .sh{
     transform: scale(1.2,1.2);
     box-shadow: 0 0 5px #444;
-    background: url(img/lvjuren.png);
+    background: url("../img/lvjuren.png");
     background-size: cover;
 }
 #sence2 .f{

@@ -3,26 +3,8 @@
  */
     var sence=document.querySelector('#sence');
     var sence2=document.querySelector('#sence2');
-    var load=document.querySelector('.loading');
-    var y=document.querySelector('.y');
-    var flashBox=document.querySelector('.flash-box');
-    var loadW=load.offsetWidth;
-    var yW=y.offsetWidth;
-    var speed=10;
-    var l=0;
     var snake=null;
-    var t=setInterval(function () {
-        l=l+speed;
-        y.style.left=l+"px";
-        if(l>=loadW-yW){
-            clearInterval(t);
-            flashBox.style.display="none";
-        }
-    },50)
 //显示个性装扮
-    var dressupBtn=document.querySelector('.dressup-btn');
-    var dressupBox=document.querySelector('.dressup-box');
-    var backBtn=document.querySelector('.back-btn');
     var wujinBtn=document.querySelector('.wujin');
     var row=20;
     var col=20;
@@ -34,12 +16,6 @@
     var t1=null;
     var food=null;
     var divs=[];
-    dressupBtn.onclick=function () {
-        dressupBox.style.display="block";
-    }
-    backBtn.onclick=function () {
-        dressupBox.style.display="none";
-    }
     //主界面部分
     var senceBox=document.querySelector('.sence-box');
     //开始游戏按钮
